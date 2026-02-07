@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* Print helpers: show only the #printable-area when printing */
+@media print {
+  /* Hide everything by default */
+  body * {
+    visibility: hidden;
+  }
+
+  /* Make printable area visible */
+  #printable-area,
+  #printable-area * {
+    visibility: visible;
+  }
+
+  /* Ensure printable area occupies the page */
+  #printable-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: block !important;
+    white-space: pre-wrap;
+  }
+
+  /* Utility to hide elements from print */
+  .no-print {
+    display: none !important;
+  }
+}
