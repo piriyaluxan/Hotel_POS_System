@@ -6,6 +6,12 @@ A modern, fast, and responsive Point of Sale (POS) system designed specifically 
 
 The Hotel POS System is a comprehensive solution for managing customer orders in hospitality establishments. It allows staff to efficiently browse menu items, manage customer carts, track order history, and generate professional receipts. The system features real-time category filtering, search functionality, and persistent order storage.
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 ## ✨ Key Features
 
 - **Interactive Menu Management**
